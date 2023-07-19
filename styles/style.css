@@ -468,3 +468,48 @@ nav{
 }
 /* end footer section  */
 
+/* @media screen section here */
+
+/* mobile device  */
+/* Mobile Responsive Styles */
+
+@media screen and (max-width: 425px) {
+    header {
+      padding: 1.5rem;
+    }
+
+nav{
+    flex-direction: column
+}
+
+.logo-name{
+    font-size: 2rem;
+}
+
+.nav-link{
+    flex-direction: column;
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.banner-hero{
+    width: 400px;
+}
+
+.banner-description-bg{
+    width: 400px;
+}
+
+.banner-description{
+    font-size: 1rem;
+}
+
+..section-one{
+    padding: 0rem 0rem;
+}
+
+}
