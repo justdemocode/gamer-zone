@@ -276,21 +276,12 @@ nav{
 .play-button{
     position: absolute;
     text-align: center;
-    top: 115rem;
+    top: 118rem;
     right: 44rem;
-    opacity: 0;
+    cursor: pointer;
     
 }
 
-.play-button:hover{
-    position: absolute;
-    text-align: center;
-    top: 115rem;
-    right: 44rem;
-    opacity: 100;
-    transition: 500ms;
-    cursor: pointer;
-}
 /* end game-card-video section */
 
 
