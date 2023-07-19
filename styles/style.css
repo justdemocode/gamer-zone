@@ -217,3 +217,59 @@ nav{
     line-height: 2.813rem;
 }
 
+.game-card-video-container{
+    padding: 2.375rem 15rem 2.375rem 15rem;
+}
+
+.card-titles{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.game-card-video-title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.game-card-video-color-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.game-card-video-description{
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin-top: 1rem;
+}
+
+.main-video-card{
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+.video-description{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+}
+
+.watch-now-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FF42A5;
+
+}
+
+.play-button{
+    position: absolute;
+    text-align: center;
+}
