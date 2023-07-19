@@ -1,0 +1,81 @@
+/* work-sans font by google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    list-style: none;
+    text-decoration: none;
+    font-family:  Work Sans;
+}
+
+/* start nav-bar style  */
+header{
+    padding: 2.375rem 15rem 2.375rem 15rem;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    max-width: 120rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.nav-link{
+display: flex;
+gap: 2rem;
+align-items: center;
+}
+
+.nav-link-bar{
+    display: flex;
+    gap: 2rem;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    align-items: center;
+    width: 262px;
+    height: 56px;
+    justify-content: center;
+}
+
+.logo-img{
+    width: 5.378rem;
+    height: 2.5rem;
+}
+
+.logo-name{
+    font-size: 2.813rem;
+    font-weight: 700;
+}
+
+.nav-link > a > li{
+    color: #3C354F;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.nav-link-bar > a > li{
+    color: #3C354F;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.nav-link > a > li:hover{
+    border-bottom: 0.2rem solid rgb(0, 0, 0);
+}
+
+.nav-link-bar > a > li:hover{
+    border-bottom: 0.2rem solid rgb(0, 0, 0);
+}
+/* end nav-bar style  */
+
+
+/* start banner style  */
+
+
