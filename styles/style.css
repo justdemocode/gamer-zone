@@ -760,3 +760,308 @@ footer{
 }
 
 }
+
+
+/* tablet device  */
+
+@media (min-width: 425px) and (max-width: 768px) { 
+
+    header {
+        padding: 2rem 2rem;
+    }
+
+
+
+.logo{
+    gap: 0.2rem;
+}
+
+.logo-name{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.nav-link{
+    gap: 1.5rem;
+    
+}
+
+.nav-link-bar{
+    display: flex;
+    gap: 1.5rem;
+    border-radius: 8px;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    justify-content: center;
+}
+
+.banner-container{
+    display: flex;
+    height: 35vh;
+    margin: 0;
+}
+
+.banner-hero{
+    width: 100%;
+}
+
+.banner-description-bg{
+    width: 50%;
+}
+
+.banner-description{
+    font-size: 1rem;
+}
+
+
+/* start banner style  */
+.section-one{
+    padding: 2rem 2rem;
+}
+
+.banner-description-title{
+    font-size: 2rem;
+}
+
+.banner-description-hero-title{
+    font-size: 4rem;
+}
+
+.banner-description-little{
+    font-size: 0.9rem;
+}
+
+.banner-btn{
+    justify-content: center;
+}
+
+.sing-in-btn, .go-rogue-btn{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+}
+/* start gamer-banner style */
+.section-two{
+    padding: 2rem 2rem;
+}
+
+.gamer-banner-container{
+    flex-direction: column;
+    padding: 2rem 2rem;
+}
+
+.gamer-banner-description-hero-title{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.gamer-banner-description-little{
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.know-more-btn{
+    margin: 0rem;
+    padding: 1rem 1.5rem;
+    border-radius: 3rem;
+    font-size: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gamer-banner-last-description-our{
+    text-align: center;
+    margin-top: 3rem;
+    line-height: 0rem;
+    font-size: 2rem;
+}
+
+.gamer-banner-last-description{
+    color: #534C64;
+    font-size: 1.5rem;
+    text-align: center;
+   
+}
+
+/* start game-card-video section */
+.game-card-video-container{
+    padding: 2rem 2rem;
+}
+
+.game-card-video-title{
+    font-size: 3rem;
+    margin-top: 7rem;
+}
+
+.game-card-video-color-title{
+    font-size: 2.8rem;
+    
+   
+}
+
+.game-card-video-description{
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+}
+
+.main-video-card{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.video-description{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.watch-now-title{
+    display: none;
+}
+
+.play-button{
+    display: none;
+}
+
+/* start dabble-card section */
+.section-four{
+    padding:2rem 2rem;
+}
+
+.dabble-card-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-instantly-title{
+    text-align: center;
+
+}
+
+.dabble-card-title{
+    color: #0B0223;
+    font-size: 3rem;
+    line-height: 3.1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+    
+}
+
+.dabble-card-description{
+    text-align: center;
+    font-size: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.dabble-card-img-hero{
+    margin-top: 1.8rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+}
+.dabble-card-moveing{
+    position: absolute;
+    width: 30%;
+    top: 195rem;
+    right: 31rem;
+    
+}
+
+/* start button nine  */
+.button-last-nine{
+    margin-top: 5.5rem;
+    padding: 2rem 2rem;
+}
+
+.five-button{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.four-button{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.all-button-flex{
+    width: 7.52rem;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    background: #fff;
+    gap: .2rem;
+    
+}
+
+.all-button-img{
+    height: 2rem;
+    width: 2rem;
+}
+
+
+.all-button-img-subtitel{
+    font-size: 0.5rem;
+    font-weight: 600;
+}
+
+/* footer device  */
+
+footer{
+    background-color: #0B0223;
+    height: 25rem;
+    width: 100%;
+    padding: 10rem 0rem;
+
+}
+
+.footer-link-one{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
+    justify-content: center;
+    margin: 3rem 1rem;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.footer-link-one > a > li{
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer-last-link{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
+    justify-content: center;
+    margin: 3rem 1rem;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.policy{
+    line-height: 1.5rem;
+}
+
+ }
