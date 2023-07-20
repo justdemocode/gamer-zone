@@ -800,14 +800,17 @@ footer{
     display: flex;
     height: 35vh;
     margin: 0;
+    gap: 3.75rem;
 }
 
 .banner-hero{
+    justify-content: center;
     width: 100%;
 }
 
 .banner-description-bg{
-    width: 50%;
+    width: 100%;
+    height: 26.30rem;
 }
 
 .banner-description{
@@ -821,15 +824,15 @@ footer{
 }
 
 .banner-description-title{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .banner-description-hero-title{
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .banner-description-little{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .banner-btn{
@@ -837,9 +840,9 @@ footer{
 }
 
 .sing-in-btn, .go-rogue-btn{
-    padding: 1rem 2rem;
-    border-radius: 2rem;
-    font-size: 0.9rem;
+    padding: .5rem 2.5rem;
+    border-radius: 2.5rem;
+    font-size: .8rem;
 }
 /* start gamer-banner style */
 .section-two{
@@ -991,32 +994,39 @@ footer{
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 .four-button{
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 
 
 .all-button-flex{
-    width: 7.52rem;
-    height: 2.5rem;
-    border-radius: 1.5rem;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 2rem;
     background: #fff;
-    gap: .2rem;
+    gap: .5rem;
+    
     
 }
 
 .all-button-img{
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 
 .all-button-img-subtitel{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     font-weight: 600;
 }
 
@@ -1033,7 +1043,7 @@ footer{
 .footer-link-one{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.75rem;
+    gap: 2rem;
     justify-content: center;
     margin: 3rem 1rem;
     text-align: center;
