@@ -419,14 +419,20 @@ nav{
     justify-content: center;
     
 }
-.footer-link > a > li{
+
+.footer-link-one{
     display: flex;
-    color: #FFF;
-    text-align: center;
+    gap: 3.75rem;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.footer-link-one > a > li{
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
     font-size: 1.125rem;
     font-weight: 600;
-    margin: 4rem;
-
 }
 
 
@@ -464,21 +470,42 @@ nav{
 /* mobile device  */
 /* Mobile Responsive Styles */
 
+.hide{
+    display: none;
+}
+
 @media screen and (max-width: 425px) {
+    
     header {
-      padding: 1.5rem;
+        padding: 2rem 2rem;
     }
 
 nav{
     flex-direction: column
 }
 
+.logo{
+    gap: 0.5rem;
+}
+
 .logo-name{
     font-size: 2rem;
+    margin: 1rem;
 }
 
 .nav-link{
+    gap: 1rem;
     flex-direction: column;
+}
+
+.nav-link-bar{
+    display: flex;
+    gap: 1rem;
+    border-radius: 8px;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    justify-content: center;
 }
 
 .banner-container{
@@ -488,19 +515,248 @@ nav{
 }
 
 .banner-hero{
-    width: 400px;
+    width: 100%;
 }
 
 .banner-description-bg{
-    width: 400px;
+    width: 100%;
 }
 
 .banner-description{
     font-size: 1rem;
 }
 
-..section-one{
-    padding: 0rem 0rem;
+
+/* start banner style  */
+.section-one{
+    padding: 2rem 2rem;
+}
+
+.banner-description-title{
+    font-size: 2rem;
+}
+
+.banner-description-hero-title{
+    font-size: 4rem;
+}
+
+.banner-description-little{
+    font-size: 0.9rem;
+}
+
+.banner-btn{
+    justify-content: center;
+}
+
+.sing-in-btn, .go-rogue-btn{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+}
+/* start gamer-banner style */
+.section-two{
+    padding: 2rem 2rem;
+}
+
+.gamer-banner-container{
+    flex-direction: column-reverse;
+    padding: 2rem 2rem;
+}
+
+.gamer-banner-description-hero-title{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.gamer-banner-description-little{
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.know-more-btn{
+    margin: 0rem;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+}
+
+.gamer-banner-last-description-our{
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 0rem;
+    font-size: 1.2rem;
+}
+
+.gamer-banner-last-description{
+    color: #534C64;
+    font-size: 1.1rem;
+    line-height: 1rem;
+    text-align: center;
+}
+
+/* start game-card-video section */
+.game-card-video-container{
+    padding: 2rem 2rem;
+}
+
+.game-card-video-title{
+    font-size: 2rem;
+}
+
+.game-card-video-color-title{
+    font-size: 2.8rem;
+   
+}
+
+.game-card-video-description{
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+}
+
+.main-video-card{
+   flex-direction: column;
+}
+
+.video-description{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.watch-now-title{
+    display: none;
+}
+
+.play-button{
+    display: none;
+}
+
+/* start dabble-card section */
+.section-four{
+    padding:2rem 2rem;
+}
+
+.dabble-card-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-instantly-title{
+    text-align: center;
+
+}
+
+.dabble-card-title{
+    color: #0B0223;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    
+}
+
+.dabble-card-description{
+    text-align: center;
+    font-size: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.dabble-card-img-hero{
+    margin-top: 1.8rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+}
+.dabble-card-moveing{
+    position: absolute;
+    width: 30%;
+    top: 272rem;
+    right: 16.563rem;
+    
+}
+
+/* start button nine  */
+.button-last-nine{
+    margin-top: 5.5rem;
+    padding: 2rem 2rem;
+}
+
+.five-button{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.four-button{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.all-button-flex{
+    width: 7.52rem;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    background: #fff;
+    gap: .2rem;
+    
+}
+
+.all-button-img{
+    height: 2rem;
+    width: 2rem;
+}
+
+
+.all-button-img-subtitel{
+    font-size: 0.5rem;
+    font-weight: 600;
+}
+
+/* footer device  */
+
+footer{
+    margin-top: 9.375rem;
+    background-color: #0B0223;
+    height: 25rem;
+    width: 26.563rem;
+    padding: 5rem 0rem;
+
+}
+
+.footer-link-one{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
+    justify-content: center;
+    margin: 3rem 1rem;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.footer-link-one > a > li{
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer-last-link{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
+    justify-content: center;
+    margin: 3rem 1rem;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 }
